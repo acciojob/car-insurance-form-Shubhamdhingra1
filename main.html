@@ -5,17 +5,17 @@
 </head>
 
 <body>
-<form action="/submit" method="get">
+<form action="/submit" method="post">
 
     <label for="name">Name</label><br><br>
-    <input id="name" name="name" type="text" placeholder="Name" required>
+    <input id="name" type="text" placeholder="Name" required>
     <br><br>
 
     <label for="email">Email</label><br><br>
-    <input id="email" name="email" type="email" placeholder="Email" required>
+    <input id="email" type="email" placeholder="Email" required>
     <br><br>
 
-    <p>Gender</p>
+    <label for="male">Gender</label><br><br>
     <input type="radio" id="male" name="gender" value="Male" required>
     <label for="male">Male</label><br>
 
@@ -27,7 +27,7 @@
     <br><br>
 
     <label for="cars">Car Brands</label><br><br>
-    <select id="cars" name="cars" required>
+    <select id="cars" required>
         <option>BMW</option>
         <option>Audi</option>
         <option>Mercedez</option>
@@ -35,15 +35,15 @@
     <br><br>
 
     <label for="carage">Car Age</label><br><br>
-    <input type="number" id="carage" name="carage" placeholder="Car Age" required>
+    <input type="number" id="carage" placeholder="Car Age" required>
     <br><br>
 
     <label for="dop">Date of Purchase</label><br><br>
-    <input type="date" id="dop" name="dop" required>
+    <input type="date" id="dop" required>
     <br><br>
 
     <label for="password">Password</label><br><br>
-    <input type="password" id="password" name="password" required>
+    <input type="password" id="password" required>
     <br><br>
 
     <button type="submit">Submit</button>
